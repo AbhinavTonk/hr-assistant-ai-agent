@@ -1,0 +1,16 @@
+jmespath
+pypdf
+reportlab
+gradio
+pyautogen
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain_openai
+chromadb
+jsonschema
+openai
+tiktoken
+beautifulsoup4
+

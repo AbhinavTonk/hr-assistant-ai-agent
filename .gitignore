@@ -1,0 +1,8 @@
+
+venv/
+
+rag_db/
+
+prompt_engineering/__pycache__/
+
+.idea/
