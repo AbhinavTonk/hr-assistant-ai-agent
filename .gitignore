@@ -6,3 +6,6 @@ rag_db/
 prompt_engineering/__pycache__/
 
 .idea/
+
+
+ai_agent/__pycache__/

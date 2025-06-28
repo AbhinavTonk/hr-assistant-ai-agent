@@ -1,6 +1,6 @@
 import gradio as gr
 
-from ai_agents import hr_agent
+from ai_agent import hr_agent
 
 
 # --- Core logic ---------------------------------------------------------------
