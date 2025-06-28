@@ -7,6 +7,12 @@ prompt_engineering/__pycache__/
 
 .idea/
 
-bin/__pycache__/app.cpython-312.pyc
+bin/__pycache__/
 
 ai_agent/__pycache__/
+
+# Ignore all __pycache__ directories
+**/__pycache__/
+
+# Ignore compiled Python files
+*.py[cod]
