@@ -47,6 +47,11 @@ def base_context_creation_and_retrieval_vector_db(
 ):
     all_docs = []
     vector_db = None
+
+    # Create rag_db directory if it don't exist
+    if not os.path.exists(persist_directory):
+        os.makedirs(persist_directory)
+
     state_file = os.path.join(persist_directory, ".file_state.json")
 
     chroma_exists = os.path.exists(os.path.join(persist_directory, "chroma.sqlite3"))
