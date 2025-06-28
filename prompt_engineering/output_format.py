@@ -14,5 +14,5 @@ HTML='''
 Html Format
 Only return body-level HTML like <h1>, <p>, <b>, <u>, <ul>, <li>.
 Do not include <html>, <head>, or <style> tags.
-Do not wrap it in triple quotes or code blocks like ```html or \'''html. Just return the raw HTML string.
+Do not wrap it in triple quotes or code blocks like ```html or \'''html. Just Return the response in pure HTML format only. Do not wrap it inside markdown backticks.
 '''

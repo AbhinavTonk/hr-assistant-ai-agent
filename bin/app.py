@@ -31,7 +31,7 @@ demo = gr.Interface(
         placeholder="Type your HR Policy related question here…",
         lines=2,
     ),
-    outputs=gr.HTML(label="Response"),
+    outputs=gr.HTML(),
     title="👩‍💼👨‍💼 HR Assistant AI Agent 👩‍💼👨‍💼",  # page title
     description='''<h5 style="color: #2c3e50; font-family: Arial; font-weight: bold;">
                     Ask me anything about HR ‒ policies

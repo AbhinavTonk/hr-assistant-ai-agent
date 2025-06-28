@@ -7,5 +7,6 @@ prompt_engineering/__pycache__/
 
 .idea/
 
+bin/__pycache__/app.cpython-312.pyc
 
 ai_agent/__pycache__/
